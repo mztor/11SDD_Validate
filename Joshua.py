@@ -1,0 +1,1 @@
+EmailAddress = input("Enter Email: ")
