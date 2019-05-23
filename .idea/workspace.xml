@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="dddb2204-049f-4fe9-b77d-c7944f60dacb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/mztor.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="5beae3e6-05cc-4037-94fd-52d2b0a4d94c" name="Default Changelist" comment="" />
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validate.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -19,11 +24,16 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mztor.py">
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validate.py">
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -45,6 +55,16 @@
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1008" />
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1050" />
+    <option name="y" value="43" />
+    <option name="width" value="857" />
+    <option name="height" value="601" />
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -52,6 +72,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,6 +89,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,6 +114,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="dddb2204-049f-4fe9-b77d-c7944f60dacb" name="Default Changelist" comment="" />
       <created>1558585503282</created>
       <option name="number" value="Default" />
@@ -106,6 +135,23 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
+=======
+      <changelist id="5beae3e6-05cc-4037-94fd-52d2b0a4d94c" name="Default Changelist" comment="" />
+      <created>1558585235709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558585235709</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="692" y="23" width="1412" height="972" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946082" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
@@ -117,21 +163,31 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Database" />
+=======
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+<<<<<<< HEAD
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+=======
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/validate.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mztor.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Nilana.py">
+>>>>>>> 95ef9b022efbdc1bdd8f6e8cf77896f5831b1cdb
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
