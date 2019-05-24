@@ -1,1 +1,1 @@
-Hubba Bubba my Jubbas
+Hubba Bubba
