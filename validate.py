@@ -31,7 +31,6 @@ def ValidatePostcode():
         return 0
 
 def ValidatePassword():
-
    
 
 def ValidateState():
