@@ -26,11 +26,6 @@ def validateNumber():
     else:
         print("Phone number is invalid")
 
-
-    
-
-
-
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
 def validatePostcode():
