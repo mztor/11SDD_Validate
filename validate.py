@@ -2,7 +2,8 @@
 #MAKES SURE THAT EMAIL IS VALID, WITH ONE @ SYMBOL, AT LEAST ONE ., AND THE @ BEFORE THE ..
 def ValidateEmail():
     email = input("Enter Email: ")
-    if "@" in email:
+    amount = int(email.count("@"))
+    if amount == 1:
         if "." in email:
             pos1 = int(email.find("@"))
             pos2 = int(email.find("."))
@@ -34,8 +35,3 @@ def ValidatePassword():
 
 
 def ValidateState():
-
-
-
-
-ValidateEmail()
