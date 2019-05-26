@@ -17,21 +17,23 @@ def ValidateEmail():
         print("Your email is invalid!")
 
 
-def ValidateNumber():
+#def ValidateNumber():
 
 
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
 def ValidatePostcode():
     postcode = input("What is your postcode? ")
-    if postcode.len() != 4:
+    if len(postcode) != 4:
         print("Your postcode is invalid!")
         return 1
     else:
         print("Your postcode is valid!")
         return 0
 
-def ValidatePassword():
+#def ValidatePassword():
 
 
-def ValidateState():
+#def ValidateState():
+
+ValidatePostcode()
