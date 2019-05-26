@@ -1,3 +1,5 @@
+#JOSHUA DRAYTON
+#MAKES SURE THAT EMAIL IS VALID, WITH ONE @ SYMBOL, AT LEAST ONE ., AND THE @ BEFORE THE ..
 def ValidateEmail():
     email = input("Enter Email: ")
     if "@" in email:
@@ -30,3 +32,7 @@ def ValidatePassword():
 
 def ValidateState():
 
+
+
+
+ValidateEmail()
