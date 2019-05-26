@@ -20,7 +20,7 @@ def validateEmail():
 
 
 def validateNumber():
-
+    print("hi")
 
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
@@ -48,4 +48,7 @@ def validatePassword():
 
 def validateState():
 
+
 validateEmail()
+validatePassword()
+validatePostcode()
