@@ -20,9 +20,8 @@ def validateEmail():
 
 #katelyn and paris; purpose mobile number
 def validateNumber():
-
     phoneNumber = input("Enter your phone number  ")
-    if phoneNumber[0:2]  == "04" and len(phoneNumber) == 20:
+    if phoneNumber[0:2]  == "04" and len(phoneNumber) == 10:
         print("Phone number is valid")
     else:
         print("Phone number is invalid")
