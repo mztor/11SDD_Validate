@@ -1,1 +1,2 @@
-EmailAddress = input("Enter Email: ")
+Email = input("Enter Email: ")
+if "@" in email:
