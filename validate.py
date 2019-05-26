@@ -13,9 +13,14 @@ def ValidateEmail():
     else:
         print("Your email is invalid!")
 
-
+#katelyn and paris; purpose mobile number
 def ValidateNumber():
-    #katelyn and paris
+    phoneNumber = input("Enter your phone number  ")
+    if phoneNumber[0:2]  == "04" and len(phoneNumber) == 20:
+        print("Phone number is valid")
+    else:
+        print("Phone number is invalid")
+
 
 def ValidatePostcode():
     if postcode.len() != 4:
@@ -27,6 +32,8 @@ def ValidatePostcode():
 
 def ValidatePassword():
 
+   
 
 def ValidateState():
+
 
