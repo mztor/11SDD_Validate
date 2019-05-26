@@ -1,6 +1,10 @@
+
+import re
+
+
 #JOSHUA DRAYTON
 #MAKES SURE THAT EMAIL IS VALID, WITH ONE @ SYMBOL, AT LEAST ONE ., AND THE @ BEFORE THE ..
-def ValidateEmail():
+def validateEmail():
     email = input("Enter Email: ")
     amount = int(email.count("@"))
     if amount == 1:
@@ -16,23 +20,31 @@ def ValidateEmail():
     else:
         print("Your email is invalid!")
 
+#katelyn and paris; purpose mobile number
+def validateNumber():
 
-def ValidateNumber():
+    phoneNumber = input("Enter your phone number  ")
+    if phoneNumber[0:2]  == "04" and len(phoneNumber) == 20:
+        print("Phone number is valid")
+    else:
+        print("Phone number is invalid")
+
+
+    
+
+
 
 
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
-def ValidatePostcode():
+def validatePostcode():
     postcode = input("What is your postcode? ")
-    if postcode.len() != 4:
+    if len(postcode) != 4:
         print("Your postcode is invalid!")
         return 1
     else:
         print("Your postcode is valid!")
         return 0
-
-def ValidatePassword():
-
 
 
 
@@ -55,5 +67,29 @@ def ValidateState():
     else:
         print("This ias an invalid state")
 
+#Anthony and Caleb
+#Tests if the input has at least one capital, number and special character
+def validatePassword():
+    a = "Password is invalid"
+    password = input("Password: ")
+    characters = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
+    numbers = re.compile('[1234567890]')
+    if password.islower() == False:
+        if (characters.search(password)) != None:
+            if (numbers.search(password)) != None:
+                print("Password is valid")
+            else:
+                print(a)
+        else:
+            print(a)
+    else:
+        print(a)
 
+
+
+def validateState():
+
+validateEmail()
+validatePassword()
+validatePostcode()
 
