@@ -17,7 +17,7 @@ def ValidateEmail():
         print("Your email is invalid!")
 
 
-#def ValidateNumber():
+def ValidateNumber():
 
 
 #Jayden Taylor
@@ -31,9 +31,7 @@ def ValidatePostcode():
         print("Your postcode is valid!")
         return 0
 
-#def ValidatePassword():
+def ValidatePassword():
 
 
-#def ValidateState():
-
-ValidatePostcode()
+def ValidateState():
