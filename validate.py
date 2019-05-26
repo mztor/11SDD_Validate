@@ -57,8 +57,9 @@ def validatePassword():
 
 
 def validateState():
+    j
 
 validateEmail()
 validatePassword()
 validatePostcode()
-
+validateNumber()
