@@ -1,6 +1,6 @@
 #JOSHUA DRAYTON
 #MAKES SURE THAT EMAIL IS VALID, WITH ONE @ SYMBOL, AT LEAST ONE ., AND THE @ BEFORE THE ..
-def ValidateEmail():
+def validateEmail():
     email = input("Enter Email: ")
     amount = int(email.count("@"))
     if amount == 1:
@@ -17,12 +17,12 @@ def ValidateEmail():
         print("Your email is invalid!")
 
 
-def ValidateNumber():
+def validateNumber():
 
 
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
-def ValidatePostcode():
+def validatePostcode():
     postcode = input("What is your postcode? ")
     if len(postcode) != 4:
         print("Your postcode is invalid!")
@@ -31,9 +31,9 @@ def ValidatePostcode():
         print("Your postcode is valid!")
         return 0
 
-def ValidatePassword():
+def validatePassword():
 
 
-def ValidateState():
+def validateState():
 
-ValidateEmail()
+validateEmail()
