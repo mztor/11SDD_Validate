@@ -18,7 +18,6 @@ def ValidateEmail():
 
 
 def ValidateNumber():
-    print("Stub")
 
 
 #Jayden Taylor
@@ -33,10 +32,10 @@ def ValidatePostcode():
         return 0
 
 def ValidatePassword():
-    print("stub")
 
 
-#Nilanas code, validate Australain states
+
+
 def ValidateState():
     State = input("What state do you live in? ")
     if State == "NSW":
@@ -53,8 +52,8 @@ def ValidateState():
         print("This is a valid state")
     elif State == "TAS":
         print("This is a valid state")
-
-
+    else:
+        print("This ias an invalid state")
 
 
 
