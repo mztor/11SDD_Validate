@@ -8,9 +8,7 @@ def ValidateNumber():
 def ValidatePostcode():
 
 
-
 def ValidatePassword():
-
 
 
 def ValidateState():
