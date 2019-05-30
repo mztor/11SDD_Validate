@@ -85,9 +85,6 @@ def validatePassword():
         print("Requires an capital letter")
 
 
-
-def validateState():
-    hi
 #validateEmail()
 #validatePassword()
 #validatePostcode()
