@@ -25,6 +25,7 @@ def press(button):
         print("Phone Number:", nmbr)
         print("State:", stt)
     validate.validateEmail(eml)
+    validate.validatePostcode(pst)
 app.addButtons(["Submit", "Cancel"], press)
 app.setBg("red")
 app.go()
