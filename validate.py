@@ -4,8 +4,8 @@ import re
 
 #JOSHUA DRAYTON
 #MAKES SURE THAT EMAIL IS VALID, WITH ONE @ SYMBOL, AT LEAST ONE ., AND THE @ BEFORE THE ..
-def validateEmail():
-    email = input("Enter Email: ")
+def validateEmail(eml):
+    email = eml
     amount = int(email.count("@"))
     if amount == 1:
         if "." in email:
@@ -87,9 +87,9 @@ def validatePassword():
 
 
 def validateState():
-
-validateEmail()
-validatePassword()
-validatePostcode()
-validateNumber()
-validateState()
+    hi
+#validateEmail()
+#validatePassword()
+#validatePostcode()
+#validateNumber()
+#validateState()

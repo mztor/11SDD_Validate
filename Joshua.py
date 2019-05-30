@@ -1,4 +1,5 @@
 from appJar import gui
+import validate
 app = gui()
 app.addLabel("title", "ENTER DETAILS")
 app.addLabelEntry("First Name")
@@ -23,22 +24,7 @@ def press(button):
         print("Postcode:", pst)
         print("Phone Number:", nmbr)
         print("State:", stt)
-    validateEmail(eml)
-def validateEmail(eml):
-    email = eml
-    amount = int(email.count("@"))
-    if amount == 1:
-        if "." in email:
-            pos1 = int(email.find("@"))
-            pos2 = int(email.find("."))
-            if pos1 < pos2:
-                print("Your email is valid!")
-            else:
-                print("Your email is invalid!")
-        else:
-            print("Your email is invalid!")
-    else:
-        print("Your email is invalid!")
+    validate.validateEmail(eml)
 app.addButtons(["Submit", "Cancel"], press)
 app.setBg("red")
 app.go()
