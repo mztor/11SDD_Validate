@@ -37,8 +37,7 @@ def validateNumber():
 
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
-def validatePostcode():
-    postcode = input("What is your postcode? ")
+def validatePostcode(postcode):
     if len(postcode) != 4:
         print("Your postcode is invalid!")
         return 1
@@ -85,8 +84,9 @@ def validatePassword():
         print("Requires an capital letter")
 
 
+#def validateState():
 #validateEmail()
 #validatePassword()
 #validatePostcode()
-#validateNumber()
-#validateState()
+
+
