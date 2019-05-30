@@ -18,7 +18,7 @@ app = gui()
 
 # add & configure widgets - widgets get a name, to help referencing them later
 app.addLabel("title", "New User")
-app.setLabelBg("title", "lightblue")
+app.setBg("lightblue")
 app.addLabelEntry("First Name")
 app.addLabelEntry("Last Name")
 app.addLabelEntry("Email")
