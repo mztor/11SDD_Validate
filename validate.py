@@ -38,6 +38,8 @@ def validateNumber():
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
 def validatePostcode(postcode):
+    if postcode.isdigit() != True:
+        return 1
     if len(postcode) != 4:
         return 1
     else:
@@ -69,16 +71,19 @@ def ValidateState():
 def validatePassword(password):
     characters = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
     numbers = re.compile('[1234567890]')
-    if password.islower() == False:
-        if (characters.search(password)) != None:
-            if (numbers.search(password)) != None:
-                print("Password is valid")
-            else:
-                print("Requires a special character")
-        else:
-            print("Requires a number")
+    if (password.islower() == False) and ((characters.search(password)) != None) and ((numbers.search(password)) != None):
+        return 1
     else:
-        print("Requires an capital letter")
+        return 0
+    #     #if (characters.search(password)) != None:
+    #         if (numbers.search(password)) != None:
+    #             print("Password is valid")
+    #         else:
+    #             print("Requires a special character")
+    #     else:
+    #         print("Requires a number")
+    # else:
+    #     print("Requires an capital letter")
 
 
 #def validateState():
