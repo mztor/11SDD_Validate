@@ -27,9 +27,10 @@ def press(button):
         print("Email:", eml)
         print("Phone:", phone)
 
-    validate.validatePassword(password)
-    validate.validateEmail(eml)
-    validate.validateNumber(phone)
+    if validate.validatePassword(password) == 1:
+        app.addFlashLabel("Your Password is Valid")
+    elif validate.validatePassword(password) == 0:
+        app.addFlashLabel("Your Password is Invalid")
 
 app.addButtons(["Cancel", "Submit"], press)
 
