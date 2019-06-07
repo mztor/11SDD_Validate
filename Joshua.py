@@ -8,6 +8,7 @@ app.addLabelEntry("Email")
 app.addLabelEntry("Postcode")
 app.addLabelEntry("Phone Number")
 app.addLabelEntry("State")
+app.addLabel("invalid", "")
 def press(button):
     if button == "Cancel":
         app.stop()
@@ -18,14 +19,13 @@ def press(button):
         pst = app.getEntry("Postcode")
         nmbr = app.getEntry("Phone Number")
         stt = app.getEntry("State")
-        print("First Name:", fst)
-        print("Last Name:", scnd)
-        print("Email:", eml)
-        print("Postcode:", pst)
-        print("Phone Number:", nmbr)
-        print("State:", stt)
-    validate.validateEmail(eml)
-    validate.validatePostcode(pst)
+        output = validate.validateEmail(eml)
+        result = validate.validatePostcode()
+    if output == 1:
+        app.setLabel("invalid", "Your email is invalid")
+    elif output == 0:
+        app.clearLabel("invalid")
+
 app.addButtons(["Submit", "Cancel"], press)
 app.setBg("red")
 app.go()
