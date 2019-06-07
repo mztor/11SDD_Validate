@@ -39,10 +39,8 @@ def validateNumber():
 #Makes sure the postcode is four numbers, as per Australian standards
 def validatePostcode(postcode):
     if len(postcode) != 4:
-        print("Your postcode is invalid!")
         return 1
     else:
-        print("Your postcode is valid!")
         return 0
 
 
