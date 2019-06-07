@@ -18,17 +18,17 @@ def press(button):
         fName = app.getEntry("First Name")
         lName = app.getEntry("Last Name")
         password = app.getEntry("Password")
-        email = app.getEntry("Email")
+        eml = app.getEntry("Email")
         phone = app.getEntry("Phone")
 
         print("First Name:", fName)
         print("Last Name:", lName)
         print("Password: ", password)
-        print("Email:", email)
+        print("Email:", eml)
         print("Phone:", phone)
 
     validate.validatePassword(password)
-    validate.validateEmail(email)
+    validate.validateEmail(eml)
     validate.validateNumber(phone)
 
 app.addButtons(["Cancel", "Submit"], press)
