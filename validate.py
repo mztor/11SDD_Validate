@@ -68,8 +68,7 @@ def ValidateState():
 
 #Anthony and Caleb
 #Tests if the input has at least one capital, number and special character
-def validatePassword():
-    password = input("Password: ")
+def validatePassword(password):
     characters = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
     numbers = re.compile('[1234567890]')
     if password.islower() == False:
