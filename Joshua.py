@@ -5,10 +5,11 @@ app.addLabel("title", "ENTER DETAILS")
 app.addLabelEntry("First Name")
 app.addLabelEntry("Last Name")
 app.addLabelEntry("Email")
+app.addLabel("email", "")
 app.addLabelEntry("Postcode")
+app.addLabel("post", "")
 app.addLabelEntry("Phone Number")
 app.addLabelEntry("State")
-app.addLabel("invalid", "")
 def press(button):
     if button == "Cancel":
         app.stop()
@@ -16,16 +17,20 @@ def press(button):
         fst = app.getEntry("First Name")
         scnd = app.getEntry("Last Name")
         eml = app.getEntry("Email")
-        pst = app.getEntry("Postcode")
+        postcode = app.getEntry("Postcode")
         nmbr = app.getEntry("Phone Number")
         stt = app.getEntry("State")
         output = validate.validateEmail(eml)
-        result = validate.validatePostcode()
+        result = validate.validatePostcode(postcode)
     if output == 1:
-        app.setLabel("invalid", "Your email is invalid")
+        app.setLabel("email", "Your email is invalid")
     elif output == 0:
-        app.clearLabel("invalid")
+        app.clearLabel("email")
+    if result == 1:
+        app.setLabel("post", "Your postcode is invalid")
+    else:
+        app.clearLabel("post")
 
 app.addButtons(["Submit", "Cancel"], press)
-app.setBg("red")
+app.setBg("MediumAquamarine")
 app.go()
