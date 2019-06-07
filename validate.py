@@ -12,13 +12,13 @@ def validateEmail(eml):
             pos1 = int(email.find("@"))
             pos2 = int(email.find("."))
             if pos1 < pos2:
-                print("Your email is valid!")
+                return 0
             else:
-                print("Your email is invalid!")
+                return 1
         else:
-            print("Your email is invalid!")
+            return 1
     else:
-        print("Your email is invalid!")
+        return 1
 
 #katelyn and paris; purpose mobile number
 def validateNumber():
