@@ -24,8 +24,11 @@ def press(button):
         print("Postcode:", pst)
         print("Phone Number:", nmbr)
         print("State:", stt)
-    validate.validateEmail(eml)
-    validate.validatePostcode(pst)
+        output = validate.validateEmail(eml)
+    if output == 1:
+        app.addLabel("invalid", "Your email is invalid")
+    elif output == 0:
+        app.clearLabel("invalid")
 app.addButtons(["Submit", "Cancel"], press)
 app.setBg("red")
 app.go()

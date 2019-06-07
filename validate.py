@@ -12,13 +12,13 @@ def validateEmail(eml):
             pos1 = int(email.find("@"))
             pos2 = int(email.find("."))
             if pos1 < pos2:
-                print("Your email is valid!")
+                return 0
             else:
-                print("Your email is invalid!")
+                return 1
         else:
-            print("Your email is invalid!")
+            return 1
     else:
-        print("Your email is invalid!")
+        return 1
 
 #katelyn and paris; purpose mobile number
 def validateNumber():
@@ -66,8 +66,7 @@ def ValidateState():
 
 #Anthony and Caleb
 #Tests if the input has at least one capital, number and special character
-def validatePassword():
-    password = input("Password: ")
+def validatePassword(password):
     characters = re.compile('[@_!#$%^&*()<>?/\|}{~:]')
     numbers = re.compile('[1234567890]')
     if password.islower() == False:
