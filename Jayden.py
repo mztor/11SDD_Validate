@@ -12,7 +12,12 @@ def press(button):
         code = app.getEntry("Postcode")
         num = app.getEntry("Phone Number")
         state = app.getEntry("State")
-        validate.validatePostcode(code)
+        result = validate.validatePostcode(code)
+        if result == 1:
+            app.addLabel("invalid", "INVALID POSTCODE")
+        else:
+            app.clearLabel("invalid")
+
 # create a GUI variable called app
 app = gui()
 
