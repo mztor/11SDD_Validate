@@ -14,7 +14,7 @@ def press(button):
         state = app.getEntry("State")
         result = validate.validatePostcode(code)
         if result == 1:
-            app.addLabel("invalid", "INVALID POSTCODE")
+            app.setLabel("invalid", "INVALID POSTCODE")
         else:
             app.clearLabel("invalid")
 
@@ -33,4 +33,5 @@ app.addLabelEntry("State")
 
 # link the buttons to the function called press
 app.addButtons(["Submit", "Cancel"], press)
+app.addLabel("invalid", "")
 app.go()

@@ -38,6 +38,8 @@ def validateNumber():
 #Jayden Taylor
 #Makes sure the postcode is four numbers, as per Australian standards
 def validatePostcode(postcode):
+    if postcode.isdigit() != True:
+        return 1
     if len(postcode) != 4:
         return 1
     else:
